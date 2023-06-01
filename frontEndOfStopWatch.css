@@ -1,0 +1,42 @@
+/* Body Style */
+body{
+    height : 100%;
+    background: #d40c0c;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Frame Style */
+.Frame{
+    width: 700px;
+    margin:50px auto;
+    color:rgb(231, 236, 240);
+    text-align : center;
+}
+/* Header Style */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+/* font size of Second and Milisecond text */
+#sec,#mili{
+    font-size: 2.5em;
+}
+/* select and style a link when we mouse over */
+button:hover{
+    transition: all 0.5 ease-in-out;
+    background: rgb(183, 211, 183);
+    border:solid 1px#fff;
+    color:#ffa600;
+}
+/* Button Style */
+button{
+    border-radius:10px;
+    background-color: #ffa600;
+    color:black;
+    font-size: 1.2em;
+    border:solid 3px black;
+    cursor: pointer;
+    width: 190px;
+    margin:10px;
+    padding: 20px 9px;
+}
+
